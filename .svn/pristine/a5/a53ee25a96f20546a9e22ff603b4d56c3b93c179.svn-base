@@ -1,0 +1,41 @@
+<?php 
+
+/**
+ * 手机版专业班级模型
+ */
+
+class ClassmobileModel extends Local\Db\Base
+{
+
+	protected $table = 'classes_mobile';
+
+
+	/**
+	 * 获取所有的班级
+	 */
+	public function getAllClassesmobile()
+	{
+		$sql = "SELECT
+                id,facultieid,name,imgpath,classid
+			FROM " . $this->q("" . PREFIX . $this->table) . "
+			WHERE isclose = 0
+            ORDER BY rank ASC
+            ";
+            
+ 		 //查看memcache是否存储该条sql
+        $allClassesmobile = Local\Util\Mem::queryMem($sql);
+        if (!$allClassesmobile)
+        {
+            $allClassesmobile = $this->queryArray($sql);
+            $array = array(
+                'key' => Local\Util\Mem::getKey($sql),
+                'value' => $allClassesmobile,
+                'Expire' => EXPIRE
+            );
+            Local\Util\Mem::setMem($array);
+        }
+        $allClassesmobile = $this->queryArray($sql);
+        return $allClassesmobile;
+	}
+
+}

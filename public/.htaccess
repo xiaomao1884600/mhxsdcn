@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php [L]
+Redirect /classes/index/classid/34  /topic/pm2014/index.php
+Redirect /classes/index/classid/1071  /topic/ui2014/index.php
+</IfModule>

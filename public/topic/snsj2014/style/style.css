@@ -1,0 +1,138 @@
+body{font:normal 12px/22px "宋体";background:#fff;text-alt:justify;text-justify:inter-ideograph;overflow-x:hidden;}
+body,p,ul,li,ol,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,iframe{margin:0;padding:0;font-family:"Microsoft YaHei"}
+ul,li,ol{list-style:none outside none;}
+a img{border:none;}
+
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:focus{color:#0c1d0d;}
+/* clear */
+.clear{zoom:1;clear:both;display:inline-block;}
+.clear{display:block;}
+.clear:after{content:".";height:0;display:block;clear:both;visibility:hidden;font-size:0;}
+.autoimg_is img {max-width:100%;
+	mywidth:expression(onload=function() {
+	this.style.width=(this.offsetWidth >document.getElementById("pic").scrollWidth*8/10)? "100%": "auto";
+	}
+)
+} 
+
+.row-fluid {width: 100%;*zoom: 1;}
+.row-fluid:before,.row-fluid:after {display: table;content: "";}
+.row-fluid:after {clear: both;}
+.row-fluid [class*="span"] {display: block;float: left;width: 100%;min-height: 28px;margin-left: 2.127659574%;*margin-left: 2.0744680846382977%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;}
+.row-fluid [class*="span"]:first-child {margin-left: 0;}
+.row-fluid .span12 {width: 99.99999998999999%;*width: 99.94680850063828%;}
+.row-fluid .span11 {width: 91.489361693%;*width: 91.4361702036383%;}
+.row-fluid .span10 {width: 82.97872339599999%;*width: 82.92553190663828%;}
+.row-fluid .span9 {width: 74.468085099%;*width: 74.4148936096383%;}
+.row-fluid .span8 {width: 65.95744680199999%;*width: 65.90425531263828%;}
+.row-fluid .span7 {width: 57.446808505%;*width: 57.3936170156383%;}
+.row-fluid .span6 {width: 48.93617020799999%;*width: 48.88297871863829%;}
+.row-fluid .span5 {width: 40.425531911%;*width: 40.3723404216383%;}
+.row-fluid .span4 {width: 31.914893614%;*width: 31.8617021246383%;}
+.row-fluid .span3 {width: 23.404255317%;*width: 23.3510638276383%;}
+.row-fluid .span2 {width: 14.89361702%;*width: 14.8404255306383%;}
+.row-fluid .span1 {width: 6.382978723%;*width: 6.329787233638298%;}
+/* edge */
+.edge{width:100%;background:#fff;color:#272727;}
+
+.top{position:relative;}
+.top .form_tel{position:absolute;left:26%;bottom:10%;height:30px;width:46%;}
+.top .form_tel p{width:100%;height:30px;margin:0 auto;clear:both;}
+.top .form_tel p a{display:block;width:100%;height:30px;background:none;float:right;}
+.top img{border-bottom:5px solid #005050;}
+h3{font-size:1.5em;text-align:center;background:#00aaaa;color:#fcfefe;margin-bottom:10px;padding:10px;}
+
+.tel{clear:both;}
+.tel a{display:block;padding:10px;}
+.tel a.btn b{display:block;background:url("../img/nav1.jpg") no-repeat top center;margin:0 auto;width:120px;padding:5px;text-align:center;color:#fff;}
+.tel span{background:url("../img/tel.jpg") no-repeat 0 14px;display:block;padding:10px 0 10px 30px;width:220px;height:20px;margin:0 auto;font-size:1.2em;}
+.tel span a{color:#333;float:left;padding:0 5px;}
+
+.tq{background:url("../img/bg.jpg") repeat;}
+.tq h2{font-weight:500;font-size:1.8em;line-height:1.3em;padding-bottom:5px;}
+.tq h2 span{font-weight:900;}
+.tq .f1{padding:10px 0;text-align:center;}
+.tq .f1 span{display:block;margin:0 0 25px;}
+.tq .f1 span font{background:#00aaaa;color:#fff;font-size:1.4em;text-align:center;padding:0 5px;margin:0 2px;}
+.tq .f1 b{font-size:6.0em;color:#00aaaa;font-weight:900;}
+.tq .f1 h2{font-size:2.3em;text-align:center;font-weight:500;color:#000000;}
+.tq .f2 {padding:5px 0;}
+.tq .f2 a{display:block;color:#00aaaa;-moz-border-radius:10px;-webkit-border-radius:10px;padding:3px;width:70px;text-align:center;border:1px solid #00aaaa;margin:3px 3px;}
+.tq .span5{text-align:center;}
+.tim{padding:10px;}
+.tim h2{text-align:center;font-size:2.0em;line-height:1.2em;color:#00aaaa;}
+.tim h2 span{display:block;font-weight:600;}
+.tim .t1{padding-top:75px;}
+.tim .t2{padding-top:90px;}
+.tim .t3{padding-top:60px;}
+
+.con1{padding:10px 0;height:91px;}
+.con1 dt{width:28%;float:left;}
+.con1 dd{float:left;width:72%;}
+.con1 dd span{line-height:36px;}
+.con1 dd h2{font-size:1.5em;padding-left:10px;font-weight:900;color:#000;text-align:left;}
+
+.morekec{border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:10px;}
+.morekec h2{font-size:1.5em;text-align:center;font-weight:600;}
+.morekec h2 b{font-weight:900;}
+.morekec h2 p{color:#e33100;font-weight:600;}
+.morekec h2 p span{font-weight:900;}
+
+.gj{background:url("../img/bg.jpg") repeat top center;text-align:center;}
+.gj h1{padding:10px 0;font-size:1.5em}
+.gj h2{text-align:center;font-size:1em;color:#231815;padding:0 0 10px;}
+.gj h2 b {font-size:1.7em;}
+.gj h2 span{color:#00aaaa;}
+.gj h3{font-size:1.5em;padding:5px 10px ;}
+.gj h3 span{font-size:2em;}
+.gj h3 p{color:#444;font-size:1em;line-height:2em;padding-top:5px 10px;}
+
+.idea{text-align:center;font-size:2.5em;color:#00aaaa;line-height:1.3em;overflow:hidden;}
+.idea ul li{width:33.3%;float:left;}
+.idea ul li div{margin:5px;}
+.idea1{background:#00aaaa;float:left;}
+.idea1 p{color:#f2f2f3;font-size:0.6em;}
+
+.six{background:url("../img/bg.jpg") repeat center 10px ;margin-top:10px;}
+.six img{margin:10px 0;}
+.six p{color:#231815;font-size:1.8em;text-align:center;line-height:1.3em}
+.six p span{color:#00aaaa;}
+
+.st span{width:50%;text-align:center;float:left;display:block;}
+.st a{display:block;width:60%;margin:10px auto;}
+
+.cl{margin-top:71px;}
+.cl p{color:#00aaaa;font-size:1.8em;text-align:center;line-height:1.3em}
+.cl p span{color:#231815;}
+
+.xs{margin-top:10px;}
+.xs p {color:#231815;font-size:1.4em;text-align:center;line-height:1.3em}
+.xs span{color:#00aaaa;font-size:1.6em;}
+.xs img {padding-top:10px;}
+
+.te{background:url("../img/bg.jpg") repeat top center;}
+.te p{color:#231815;font-size:1.8em;text-align:center;line-height:1.5em}
+.te p span{color:#00aaaa;font-size:1.5em}
+.te img{ padding-top:10px;}
+.te1 h4 {color:#231815;font-size:1em;text-align:center;line-height:1.6em}
+.te1 b  {font-size:0.8em;}
+.te1 span{color:#00aaaa;font-size:1.5em;}
+.te1 p {color:#231815;font-size:0.9em;text-align:center;line-height:1.5em}
+/* for 480px or less        480像素以下*/
+@media screen and (max-width: 480px) {
+	.tel b{font-size:9px;}
+	.tq .f1 b {font-size:5em;}
+	.idea1 p {font-size:0.6em;}
+	.six p {font-size:1.2em;}
+	.xs p {font-size:1em;}
+	.tim h2 {font-size:1.5em;}
+	.idea p b{font-size:0.9em;}
+	.idea p.t{font-size:0.7em;}
+	.gj h2{font-size:0.9em;}
+	h3{font-size:1.2em;}
+	.con1 dd span{font-size:8px;line-height:1em;}
+	.con1 dt{width:18%;float:left;}
+	.con1 dd{float:left;width:82%;}
+}

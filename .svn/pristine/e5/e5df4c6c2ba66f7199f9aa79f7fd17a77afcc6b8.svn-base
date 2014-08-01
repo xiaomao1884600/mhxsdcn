@@ -1,0 +1,102 @@
+ <?php $this->display('layouts/header.php')?>
+	<!--container star-->
+	<div class="container">
+		<div id="slides">
+			<img src="<?php echo SYSTEMURL;?>/images/banner/jiuye.jpg" alt="" onclick='openimg("<?php echo SYSTEMURL;?>/topic/ui2014/index.php")'>
+            <img src="<?php echo SYSTEMURL;?>/images/banner/pm2014.jpg" alt="" onclick='openimg("<?php echo SYSTEMURL;?>/topic/pm2014/index.php")'>
+			<img src="<?php echo SYSTEMURL;?>/images/banner/student.jpg" alt="" onclick='openimg("http://edu.hxsd.com/topic/2013career/")'>
+			<img src="<?php echo SYSTEMURL;?>/images/banner/game.jpg" alt="" onclick='openimg("http://edu.hxsd.com/topic/gamevfx2014/")'>
+			<img src="<?php echo SYSTEMURL;?>/images/banner/zhaopin.jpg" alt="" onclick='openimg("http://edu.hxsd.com/career2014s/live.html")'>
+		  <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+		  <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+		</div>
+	  </div>
+	<!--container end-->
+  <!--main-->
+  <div class="main">
+	<!--Category star-->
+	<h2 class="category_tit">影视动画专业</h2>
+	<ul class="category_ch">
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1122" class="icon"><img src="images/category_icon/category_icon1.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1122" class="t">影视概念设计</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1108" class="icon"><img src="images/category_icon/category_icon2.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1108" class="t">影视特效动画</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1109" class="icon"><img src="images/category_icon/category_icon3.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1109" class="t">影视次世代高精模型</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1060" class="icon"><img src="images/category_icon/category_icon4.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1060" class="t">影视特效与合成</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1083" class="icon"><img src="images/category_icon/category_icon5.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1083" class="t">影视后期合成</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1081" class="icon"><img src="images/category_icon/category_icon6.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1081" class="t">影视包装与广告</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1117" class="icon"><img src="images/category_icon/category_icon7.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1117" class="t">影视剪辑</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1091" class="icon"><img src="images/category_icon/category_icon8.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1091" class="t">影视合成全科班</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/42" class="icon"><img src="images/category_icon/category_icon9.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/42" class="t">Maya 基础班</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/43" class="icon"><img src="images/category_icon/category_icon10.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/43" class="t">Maya 专业班</a></li>
+	</ul>
+	<h2 class="category_tit">游戏设计专业</h2>
+	<ul class="category_ch">
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1107" class="icon"><img src="images/category_icon/category_icon11.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1107" class="t">MDA游戏设计</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1076" class="icon"><img src="images/category_icon/category_icon12.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1076" class="t">游戏原画美术专业班</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1078" class="icon"><img src="images/category_icon/category_icon13.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1078" class="t">游戏原画美术精英班</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1114" class="icon"><img src="images/category_icon/category_icon14.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1114" class="t">游戏UI设计</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1038" class="icon"><img src="images/category_icon/category_icon15.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1038" class="t">网游次世代高精模型</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1119" class="icon"><img src="images/category_icon/category_icon16.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1119" class="t">游戏动画</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1129" class="icon"><img src="images/category_icon/category_icon17.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1129" class="t">游戏特效</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1121" class="icon"><img src="images/category_icon/category_icon18.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1121" class="t">手机游戏设计</a></li>
+	</ul>
+	<h2 class="category_tit">建筑设计专业</h2>
+	<ul class="category_ch">
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1124" class="icon"><img src="images/category_icon/category_icon19.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1124" class="t">MDA室内设计</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1123" class="icon"><img src="images/category_icon/category_icon20.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1123" class="t">室内设计</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1087" class="icon"><img src="images/category_icon/category_icon21.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1087" class="t">建筑表现与动画</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1101" class="icon"><img src="images/category_icon/category_icon22.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1101" class="t">3ds Max & VRay 室内表现</a></li>
+	</ul>
+	<h2 class="category_tit">互动媒体专业</h2>
+	<ul class="category_ch">
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/34" class="icon"><img src="images/category_icon/category_icon24.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/34" class="t">平面广告高级设计师班</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1071" class="icon"><img src="images/category_icon/category_icon27.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/1071" class="t">UI界面高级设计师班</a></li>
+		<li><a href="<?php echo SYSTEMURL;?>/classes/index/classid/48" class="icon"><img src="images/category_icon/category_icon28.jpg" /></a><a href="<?php echo SYSTEMURL;?>/classes/index/classid/48" class="t">商业插画高级设计师班</a></li>
+	</ul>
+	<!--Category end-->
+	<h2 class="category_tit">火星看点</h2>
+	<ul class="aspect_list">
+		<ul class="aspect_list">
+		<?php foreach($blogposts as $post):?>
+		<li><a href="<?php echo SYSTEMURL;?>/blog/index/id/<?php echo $post['ID'];?>" target="_blank"><?php echo $post['post_title'];?></a></li>
+		<?php endforeach;?>
+
+	</ul>
+	</ul>
+  </div>
+  <!--main end-->
+
+  <?php $this->display('layouts/footer.php')?>
+
+  <script src="<?php echo SYSTEMURL;?>/js/slides.js"></script>
+  <script src="<?php echo SYSTEMURL;?>/js/jquery.slides.min.js"></script>
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 600,
+        height: 254,
+        navigation: false,
+        play: {
+            active: false,
+            auto: true,
+            interval: 4000,
+            swap: true
+        }
+      });
+    });
+
+	/***
+	 *
+	 * 打开图片轮播链接地址
+	 */
+	function openimg(url)
+	{
+//		var tmp=window.open('about:blank','','fullscreen=1')
+//		tmp.moveTo(0,0);
+//		tmp.resizeTo(screen.width+20,screen.height);
+//		tmp.focus();
+//		tmp.location=url;
+		window.open(url)
+	}
+  </script>
+ </body>
+</html>

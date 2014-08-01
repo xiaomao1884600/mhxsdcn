@@ -1,0 +1,1 @@
+document.write("<script type=\"text\/javascript\" charset=\"utf-8\" src=\"http://gate.looyu.com/11464/115695.js\"><\/script>");

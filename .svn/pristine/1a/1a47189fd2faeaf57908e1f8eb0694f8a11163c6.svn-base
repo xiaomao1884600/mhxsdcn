@@ -1,0 +1,217 @@
+﻿<?php include dirname(__DIR__).'/conf/config.php';?>
+<!DOCTYPE html >
+<head>
+<base target="_blank" />
+<title>商业插画班 | 火星时代实训基地 中国动漫游戏高端教育品牌</title>
+<link type="text/css" rel="stylesheet" href="style/style.css" />
+<link type="text/css" rel="stylesheet" href="<?php echo SYSTEMURL ;?>/css/listenonline_form.css" />
+<script src="<?php echo SYSTEMURL ;?>/js/listenonline_form.js"></script>
+    
+<?php include dirname(__DIR__).'/layouts/header.php';?>
+
+<div class="edge clear " style="">
+	<div class="top autoimg_is">
+		<img src="img/top_img.jpg" />
+        <div class="form_tel">
+            <p>
+                <a href="javascript:void(0)"target="_self" title="领取助学金" onclick="apply_form(49);" ></a>
+            </p>
+        </div>
+	</div>
+		<div class="tim">
+			<h2>不想再让父母掏钱赞助学习怎么办?  </h2>
+			<dl class="con1">
+				<dt class="autoimg_is"><img src="img/icon1.jpg" /></dt>
+				<dd>
+					<span>火星超震撼助学金计划 —— 就业后，再付款！</span>
+					<h2>只有我们敢这样承诺！</h2>
+				</dd>
+			</dl>
+			<div class="tel">
+				<a href="javascript:void(0)"  onclick="apply_form(48);"  target="_self" title="" class="btn"><b>领取助学金</b></a>
+				<span><a href="tel:400-810-1418">400-810-1418</a>&nbsp;&nbsp;<a href="tel:400-621-1416">400-621-1416</a></span>
+			</div>
+		</div>
+		<div class="yebg mx clear">
+			<h2><strong>学习3个月，</strong><span>梦想未来</span><b>解手可及</b><p>商业插画高级设计师班</p></h2>
+			<div class="autoimg_is"><img src="img/pic1.jpg"></div>
+			<div class="tel tel2">
+				<a href="javascript:void(0)"  onclick="doyoo.util.openChat();return false;"  target="_self" title="" class="btn"><img src="img/btn1.png" /></a>
+				<span>全国免费咨询</span>
+				<p><a href="tel:400-810-1418">400-810-1418</a>&nbsp;&nbsp;<a href="tel:400-621-1416">400-621-1416</a></p>
+			</div>
+		</div>
+		<h2 class="clear"><strong>绘画、设计、商业</strong><span>应用</span><b>一步到位</b><p>6大绘画风格，4大设计思路，8大商业应用</p></h2>
+		<h2><img src="img/tit.jpg" /></h2>
+		<div class="autoimg"><img src="img/pic2.jpg" /></div>
+		<h2><img src="img/tit2.jpg" /></h2>
+		<div class="autoimg"><img src="img/pic3.jpg" /></div>
+		<h2><img src="img/tit3.jpg" /></h2>
+		<div class="autoimg"><img src="img/pic4.jpg" /></div>
+		<div class="tel">
+			<a href="javascript:void(0)"  onclick="apply_form(49);"  target="_self" title="" class="btn"><img src="img/btn2.png" /></a>
+		</div>
+		<div class="yebg tq yh">
+			<div class="row-fluid">
+				<div class="span4 f1">
+					<span><font>大机构独享</font></span>
+					<b>5大</b>
+					<h2>优惠政策</h2>					
+				</div>
+				<div class="span8 f2">
+					<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;" target="_self" title="">免费试学</a>	
+					<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;" target="_self" title="">美术课程</a>			
+					<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;" target="_self" title="">专家讲座</a>	
+					<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;" target="_self" title="">就业推荐</a>		
+					<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;" target="_self" title="">名企有约</a>		
+				</div>
+			</div>
+			<div class="tel tel2">
+				<a href="javascript:void(0)"  onclick="apply_form(49);"  target="_self" title="" class="btn"><img src="img/btn3.png" /></a>
+				<span>全国免费咨询</span>
+				<p><a href="tel:400-810-1418">400-810-1418</a>&nbsp;&nbsp;<a href="tel:400-621-1416">400-621-1416</a></p>
+			</div>
+		</div>
+		<div class="tq">
+			<div class="row-fluid">
+				<div class="span4 f1">
+					<span><font>独享Adobe</font></span>
+					<b>5大</b>
+					<h2>认证特权</h2>					
+				</div>
+				<div class="span8 f5">
+					<p>Adobe<span>官方指定UI培训</span></p>
+					<p>Adobe<span>认证讲师授课</span></p>
+					<p>Adobe<span>职业资格证书</span></p>
+					<p>Adobe<span>教师培训中心</span></p>
+					<p>Adobe<span>认证考试中心</span></p>
+				</div>
+			</div>
+			<div class="tel tel2">
+				<a href="javascript:void(0)"  onclick="doyoo.util.openChat();return false;"   target="_self" title="" class="btn"><img src="img/btn4.png" /></a>
+				<span>全国免费咨询</span>
+				<p><a href="tel:400-810-1418">400-810-1418</a>&nbsp;&nbsp;<a href="tel:400-621-1416">400-621-1416</a></p>
+			</div>
+		</div>
+		<div class="yebg ">
+			<h2 class="clear tit1"><b>课程设置含金量</b>性价比高，投资回报快！<br /><span><font>480个</font></span><strong>饱满课时，</strong><span><font>近50种</font></span><strong>类型项目实训！</strong></h2>
+			<div class="tel tel2">
+				<p><a href="tel:400-810-1418"   target="_self" title="" ><img src="img/btn5.png" /></a><a href="tel:400-621-1416"  target="_self" title="" ><img src="img/btn6.png" /></a></p>
+			</div>
+		</div>
+		<h2 class="clear"><strong>在其他机构，</strong><br /><span>你绝不会见到这么多</span><b>就业学员</b></h2>
+		<ul class="xy">
+			<li>
+				<a href="javascript:void(0)"  onclick="doyoo.util.openChat();return false;"     target="_self" title=""  class="autoimg"><img src="img/xy1.jpg" /></a>
+				<h2>就职于：<b>果壳网</b></h2>
+				<p>向晶晶 82期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy2.jpg" /></a>
+				<h2>就职于：<b>中少年儿童出版总社</b></h2>
+				<p>姚星 91期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy3.jpg" /></a>
+				<h2>就职于：<b>麦基格瑞</b></h2>
+				<p>潘益嘉 104期商业插画设计专业班</p>
+			</li>
+
+
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy4.jpg" /></a>
+				<h2>就职于：<b>水寒文化</b></h2>
+				<p>杨楚 104期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy5.jpg" /></a>
+				<h2>就职于：<b>新京报</b></h2>
+				<p>张妍 104期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy6.jpg" /></a>
+				<h2>就职于：<b>普拉纳广告</b></h2>
+				<p>包亦舒 96期商业插画设计专业班</p>
+			</li>
+
+
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy7.jpg" /></a>
+				<h2>就职于：<b>吉汇文化</b></h2>
+				<p>黄雨晴 104期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy8.jpg" /></a>
+				<h2>就职于：<b>新游地游戏公司</b></h2>
+				<p>赵媛媛 102期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy9.jpg" /></a>
+				<h2>就职于：<b>北京环球音像出版社</b></h2>
+				<p>闫国梅 88期商业插画设计专业班</p>
+			</li>
+
+
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy10.jpg" /></a>
+				<h2>就职于：<b>SOHO</b></h2>
+				<p>巩雪 88期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy11.jpg" /></a>
+				<h2>就职于：<b>SOHO</b></h2>
+				<p>李怡宁 94期商业插画设计专业班</p>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;"   target="_self" title=""  class="autoimg"><img src="img/xy12.jpg" /></a>
+				<h2>就职于：<b>恒大动漫</b></h2>
+				<p>郑思默 85期商业插画设计专业班</p>
+			</li>
+
+		</ul>
+		<div class="tel tel2">
+			<a href="javascript:void(0)"  onclick="apply_form(49);"  target="_self" title="" class="btn"><img src="img/btn7.png" /></a>			
+		</div>
+		<div class="yebg qyhz">			
+			<h2 class="clear"><span>在中国，有UI的地方就有火星学员</span><br /><strong>在火星 你的同学就是你的人脉</strong><br /><b>你的学校就是你的资源</b></h2>
+			<p>火星在全国各大城市长期合作企业<strong>20000</strong>多家</p>
+			<p><span>每天上门招聘企业超过<strong>20</strong>家。</span><span><strong>20000</strong>多家企业与火星签订《一体化人才合作协议》</span></p>
+		<div class="tel tel2">
+			<a href="tel:400-810-1418" target="_self" title="" class="btn"><img src="img/btn8.png" /></a>			
+		</div>
+		</div>
+		<div class="cont clear">
+			<h2>
+				<strong>火星时代，国人选择最多的CG培训机构</strong><br />
+				<span>20年成就</span><b>30万中国人CG职业梦想</b>
+			</h2>
+			<a href="javascript:void(0)" onclick="doyoo.util.openChat();return false;" target="_self" title="" class="autoimg_is"><img src="img/pic10.jpg" /></a>
+			<p>在中国，每新增10名CG设计师就有5名毕业于火星；<br />在中国，每小时有3名CG学员毕业于火星时代；<br />在中国，100%的知名CG企业有火星学员。</p>
+		</div>
+		<div class="yebg">
+			<dl>
+				<dt><h2><span>所有疑问，一键解决</span><br /><strong>点击咨询就等于成功了一半</strong></h2>
+					<div class="tel">
+						<a href="javascript:void(0)"  onclick="apply_form(49);"  target="_self" title="" class="btn"><img src="img/btn9.png" /></a>
+						<span><a href="tel:400-810-1418">400-810-1418</a>&nbsp;&nbsp;<a href="tel:400-621-1416">400-621-1416</a></span>
+					</div>
+				</dt>
+				<dd></dd>
+			</dl>
+		</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1159345-7");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3c8bc6bd1f93bb38fbe0b0e7e6f9d233' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<?php include dirname(__DIR__).'/layouts/footer.php';?>

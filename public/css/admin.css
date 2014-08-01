@@ -1,0 +1,18 @@
+* {margin:0px; padding:0px;}
+.adminmain {width: 1400px; clear:both; overflow:hidden; text-align:center; margin:0 auto;}
+ul {list-style-type:none; margin:0px;}
+a:hover{text-decoration:none}
+textarea {resize:none;}
+.required {color:#F00;}
+/* login */
+.adminlogin {width:300px;margin:220px auto;}
+.adminlogin .panel-body {padding:20px 24px 30px 24px;}
+/* Table */
+.table-box {margin:0 12px;}
+.table-tr th {text-align:center;}
+.leftbox {margin-right: 10px; float:left; width:20%}
+.rightbox {margin-right: 10px; float:left; width:75%;}
+/* navclear */
+.navclear1 {width:100%; clear:both; height:10px;}
+.navclear2 {width:100%; clear:both; height:20px;}
+.navclear3 {width:100%; clear:both; height:30px;}

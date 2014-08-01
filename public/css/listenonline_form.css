@@ -1,0 +1,9 @@
+.apply_form{width:300px;height:180px;background:#fff;position:fixed;left:50%;top:50%;margin:-90px 0 0 -150px;z-index:9999;-moz-border-radius: 1em;  -webkit-border-radius: 1em;border-radius: 1em;overflow:hidden;}
+.apply_form h3{height:30px;line-height:30px;color:#fff;position:relative;background:#d10b0b;text-align:Center;margin-bottom:20px;}
+.apply_form h3 a{font-size:1.5em;position:absolute;top:-2px;right:10px;color:#fff;font-weight:500;}
+.apply_form p{padding:5px;text-align:Center;}
+.apply_form label{font-size:0.8em;color:red;}
+.apply_form p input.error{border:#d10b0b;background:red;border:1px solid #ccc;}
+.apply-form p input{-moz-border-radius: 1em;  -webkit-border-radius: 1em;border-radius: 1em;border:1px solid #ccc;padding:1px;}
+.apply_form .btn{text-align:center;background:#d10b0b;moz-border-radius: 1em;  -webkit-border-radius: 1em;border-radius: 1em;color:#fff;border:0;width:100px;margin:10px auto 0;display:block;padding:5px 0;}
+.errortip{background:#d10b0b;width:200px;height:30px;position:fixed;left:50%;top:50%;margin:-15px 0 0 -100px;z-index:9999;-moz-border-radius: 1em;  -webkit-border-radius: 1em;border-radius: 1em;overflow:hidden;color:#fff;text-align:Center;line-height:30px;-webkit-box-shadow: 3px 3px 6px #444;-moz-box-shadow: 3px 3px 6px #444; box-shadow: 3px 3px 6px #444;}
